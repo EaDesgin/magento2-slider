@@ -5,6 +5,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'CzoneTech_Slider',
+    'Eadesigndev_Slider',
     __DIR__
 );
