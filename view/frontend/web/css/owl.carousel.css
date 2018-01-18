@@ -117,6 +117,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    text-align: center;
 }
 .owl-carousel .owl-item img {
     display: block;
@@ -218,4 +219,42 @@
 .owl-carousel .owl-video-frame {
     position: relative;
     z-index: 1;
+}
+/* Addings */
+
+.owl-nav .owl-next {
+    right:15px;
+}
+.owl-nav .owl-prev {
+    left:15px;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+    position: absolute;
+    top:50%;
+    margin-top: -18px;
+}
+.owl-item .product-item-link {
+    color:#79797f;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.owl-item .price-box span {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+.owl-item .price-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.block.newGrid.widget .block-title strong {
+    font-weight: normal;
+    font-size: 23px;
+}
+.block.newGrid.widget .block-title {
+    margin:60px 0;
+    text-align: center;
 }
